@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-
+<h1>hola mundo</h1>
 }
 
 export default App
