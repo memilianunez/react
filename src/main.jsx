@@ -31,6 +31,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
 
+
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIRESTORE_API_KEY ,
   authDomain: import.meta.env.VITE_FIRESTORE_AUTH_DOMAIN,

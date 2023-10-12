@@ -1,8 +1,8 @@
 import { useContext, useState } from "react";
-import { CartContext } from "../context/CartContext";
 import { serverTimestamp } from "firebase/firestore";
 import { getCartTotal, mapCartToOrderItems } from "../utils";
 import { createOrder } from "../services";
+
 
 const Checkout = () => {
     const [orderId, setOrderId] = useState(null);
